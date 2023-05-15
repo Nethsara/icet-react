@@ -1,11 +1,18 @@
 import React from "react";
-import RoundButton from "../../components/RoundButton/RoundButton";
+import "./style.css";
 
 export const HomePage = () => {
+  const clickFunction = () => {
+    alert("I Clicked");
+  };
+
   return (
     <div>
       <h1>Hello World</h1>
-      <RoundButton name="hiiii" />
+      <button onClick={clickFunction} style={{ color: "red" }}>
+        Click Me
+      </button>
+      <button className="my-btn">My Button</button>
     </div>
   );
 };

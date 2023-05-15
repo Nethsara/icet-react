@@ -1,7 +1,7 @@
 import React from "react";
 
 function RoundButton(props) {
-  return <div>{props.name}</div>;
+  return <button>{props.name}</button>;
 }
 
 export default RoundButton;
