@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Button from "@mui/material/Button";
 
 export const HomePage = () => {
   const clickFunction = () => {
@@ -13,6 +14,7 @@ export const HomePage = () => {
         Click Me
       </button>
       <button className="my-btn">My Button</button>
+      <Button variant="contained">Hello World</Button>
     </div>
   );
 };
