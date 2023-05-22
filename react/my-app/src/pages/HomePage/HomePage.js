@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./style.css";
 import Button from "@mui/material/Button";
+import "./style.css";
 
 export const HomePage = () => {
   const [title, setTitle] = useState("");
